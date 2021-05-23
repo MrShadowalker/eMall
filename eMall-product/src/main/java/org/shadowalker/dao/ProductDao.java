@@ -1,6 +1,6 @@
-package org.shadowalker.product.dao;
+package org.shadowalker.dao;
 
-import org.shadowalker.common.model.Product;
+import org.shadowalker.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

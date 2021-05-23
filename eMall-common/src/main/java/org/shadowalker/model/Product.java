@@ -1,4 +1,4 @@
-package org.shadowalker.common.model;
+package org.shadowalker.model;
 
 import lombok.Data;
 
@@ -16,20 +16,20 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer productId;
+    private Integer pid;
 
     /**
      * 商品名称
      */
-    private String productName;
+    private String pname;
 
     /**
      * 价格
      */
-    private String price;
+    private Double pprice;
 
     /**
      * 库存
      */
-    private String stock;
+    private Integer stock;
 }

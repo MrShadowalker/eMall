@@ -1,4 +1,4 @@
-package org.shadowalker.product;
+package org.shadowalker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,8 +9,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ProductApplicationStarter {
+public class UserApplicationStarter {
     public static void main(String[] args) {
-        SpringApplication.run(ProductApplicationStarter.class, args);
+        SpringApplication.run(UserApplicationStarter.class, args);
     }
 }

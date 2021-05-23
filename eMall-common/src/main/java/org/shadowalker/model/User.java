@@ -1,4 +1,4 @@
-package org.shadowalker.common.model;
+package org.shadowalker.model;
 
 import lombok.Data;
 
@@ -16,12 +16,12 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer userId;
+    private Integer uid;
 
     /**
      * 用户姓名
      */
-    private String userName;
+    private String username;
 
     /**
      * 密码
@@ -31,5 +31,5 @@ public class User {
     /**
      * 手机号
      */
-    private String mobile;
+    private String telephone;
 }

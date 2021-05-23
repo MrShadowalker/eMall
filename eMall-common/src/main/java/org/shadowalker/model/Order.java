@@ -1,4 +1,4 @@
-package org.shadowalker.common.model;
+package org.shadowalker.model;
 
 import lombok.Data;
 
@@ -16,10 +16,10 @@ public class Order {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long orderId;
+    private Long oid;
 
-    private Integer userId;
+    private Integer uid;
 
-    private String userName;
+    private String username;
 
 }

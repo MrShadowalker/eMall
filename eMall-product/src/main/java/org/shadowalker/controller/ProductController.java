@@ -1,9 +1,9 @@
-package org.shadowalker.product.controller;
+package org.shadowalker.controller;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
-import org.shadowalker.common.model.Product;
-import org.shadowalker.product.service.ProductService;
+import org.shadowalker.model.Product;
+import org.shadowalker.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

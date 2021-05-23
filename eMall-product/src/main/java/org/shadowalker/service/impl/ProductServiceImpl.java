@@ -1,8 +1,8 @@
-package org.shadowalker.product.service.impl;
+package org.shadowalker.service.impl;
 
-import org.shadowalker.common.model.Product;
-import org.shadowalker.product.dao.ProductDao;
-import org.shadowalker.product.service.ProductService;
+import org.shadowalker.dao.ProductDao;
+import org.shadowalker.model.Product;
+import org.shadowalker.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
